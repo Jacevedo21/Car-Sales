@@ -17,7 +17,7 @@ const mapStateToProps = state => {
   return {
     carImage: state.car.image,
     carName: state.car.name,
-    carPrice: state.car.fixedPrice
+    carPrice: state.car.price
   };
 }
 export default connect(mapStateToProps, {})(Header);
